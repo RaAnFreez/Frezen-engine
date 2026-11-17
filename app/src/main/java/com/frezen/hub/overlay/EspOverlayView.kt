@@ -381,10 +381,6 @@ class EspOverlayView(context: Context, private var prefs: PrefManager) : View(co
         return if (len < 0.001f) PointF(1f, 0f) else PointF(v.x/len, v.y/len)
     }
 
-    private fun geo.dist(a: PointF, b: PointF): Float {
-        val dx = a.x - b.x; val dy = a.y - b.y
-        return sqrt(dx*dx + dy*dy)
-    }
 
     fun updateSettings(prefs: PrefManager) {
         this.prefs = prefs

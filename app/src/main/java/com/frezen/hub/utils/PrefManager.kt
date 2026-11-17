@@ -23,8 +23,8 @@ class PrefManager(context: Context) {
     var overlayAlpha: Int
         get() = prefs.getInt("overlay_alpha", 80)
         set(v) = prefs.edit().putInt("overlay_alpha", v).apply()
-}
 
     var userId: String
         get() = prefs.getString("user_id", "") ?: ""
         set(v) = prefs.edit().putString("user_id", v).apply()
+}
