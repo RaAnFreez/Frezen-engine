@@ -1,0 +1,3 @@
+-keep class com.frezen.hub.** { *; }
+-keep class androidx.viewpager2.** { *; }
+-keepclassmembers class * extends androidx.recyclerview.widget.RecyclerView$Adapter { *; }
