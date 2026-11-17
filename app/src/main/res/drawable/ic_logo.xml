@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+
+    <!-- Background rounded rect -->
+    <path
+        android:fillColor="#6EE7B7"
+        android:pathData="M8,8 L40,8 Q40,8 40,8 L40,40 Q40,40 40,40 L8,40 Q8,40 8,40 L8,8 Z"/>
+
+    <!-- F letter -->
+    <path
+        android:fillColor="#0D0D0F"
+        android:pathData="M14,14 L34,14 L34,20 L20,20 L20,22 L30,22 L30,28 L20,28 L20,34 L14,34 Z"/>
+
+</vector>

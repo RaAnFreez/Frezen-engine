@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/card_bg">
+
+    <ImageView
+        android:id="@+id/iv_banner"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/banner_8bp"/>
+
+    <!-- Gradient overlay untuk text readability -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/banner_gradient"/>
+
+    <!-- Text overlay di bawah -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tv_banner_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Best Cheat Engine ·"
+            android:textColor="#FFFFFF"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:shadowColor="#000"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="4"/>
+
+        <TextView
+            android:id="@+id/tv_banner_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8 Ball Pool"
+            android:textColor="#BBFFFFFF"
+            android:textSize="11sp"
+            android:shadowColor="#000"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="4"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:text="Read More"
+            android:textSize="12sp"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#6B21A8"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:layout_marginTop="6dp"
+            android:stateListAnimator="@null"/>
+    </LinearLayout>
+
+</FrameLayout>
